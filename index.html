@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<title>ExHetAI 2025</title> 
+<meta charset="UTF-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata"> 
+<style>
+body, html {
+  height: 100%;  
+  font-family: "Inconsolata", sans-serif; 
+}
+  
+.bgimg {
+  background: url("exhetAI_image.png") no-repeat center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: black; /* fallback in case image doesn't load */
+  height: 80vh; /* 40% of viewport height – adjusts based on screen */
+  max-height: 500px; /* prevents it from becoming too large on big screens */
+  min-height: 250px; /* ensures enough visibility on small phones */
+  position: relative;
+  z-index: -10;
+}
+
+
+.logo-img {
+  height: 20%;
+}
+  
+
+.menu {  
+  display: none;
+}
+
+.bold { font-weight: bold; }
+.red { color: #FF0000; }
+
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-black" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#home" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="https://sc25.supercomputing.org" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Venue</a>
+    <a href="#program" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Program</a>
+    <a href="#cfp" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Call for Papers</a>
+    <a href="#dates" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Important Dates</a>
+    <a href="#committees" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Committees</a>
+    
+  </div>
+</div>
+
+  
+<!-- Header with image -->
+<header class= "bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:50px">ExHetAI: The Workshop on Extreme Heterogeneity and AI Convergence in HPC</span>
+  </div>
+  <!-- <div class="w3-display-middle w3-center" style="background: rgba(0,0,0,0.5); padding: 10px;">
+  <span class="w3-text-white" style="font-size: 3vw;">ExHetAI: Workshop on Extreme Heterogeneity and AI Convergence in HPC</span>
+</div> -->
+</header>
+
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container" id="home">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Workshop Overview</h1>
+     
+      <h5 class="w3-text-grey">
+     The convergence of artificial intelligence (AI) and high-performance computing (HPC), alongside the rapid advancement of 
+     heterogeneous computing architectures, is reshaping the landscape of modern supercomputing. Specialized accelerators such as GPUs, 
+     TPUs, IPUs, neuromorphic processors, quantum devices, and FPGAs—are driving innovation, but also introducing new challenges in 
+     performance portability, system optimization, and software adaptability.
+
+      In this era of exascale and extreme heterogeneity, fully harnessing diverse hardware platforms demands AI-driven methods, novel programming 
+      paradigms, and intelligent workload orchestration. This workshop will bring together researchers and practitioners from academia, industry, and 
+      national laboratories to explore cutting-edge developments in AI-HPC integration, heterogeneous system design, energy-efficient computing, 
+      and AI-assisted performance tuning.
+
+      By fostering interdisciplinary dialogue and collaboration, the workshop seeks to drive progress toward scalable, efficient, and sustainable computing. 
+      We invite contributions addressing heterogeneous hardware, AI-enabled HPC methodologies, advanced memory architectures, and innovative 
+      programming models aiming at shaping the future of AI-driven scientific discovery and high-performance computing.</h5>
+    </div>
+
+    <div class="exhetailogo w3-third w3-center">
+      <img src="SC26_logo.jpg" class="logo-img">
+    </div>
+    
+    <br></br>
+    <br></br>
+  </div>
+</div>
+
+
+<style>
+  .speaker-card img {
+    height: 250px;
+    object-fit: cover; /* ensures the image covers the area without distortion */
+  }
+  
+  .speaker-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+</style>
+
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container" id="program">
+  <div class="w3-content">          
+    <h1>Workshop Program</h1>  
+        <br>
+        <h5>ExHetAI 2025 will be held on Sunday, November 16. The schedule is provided below. All times are in CST.</h5>    
+      	<h5>(SC26 ExHetAI Workshop Session: <a href="https://sc25.conference-program.com/session/?sess=sess237">https://sc25.conference-program.com/session/?sess=sess237</a>)</h5>
+		<br> 
+        <table border="1px solid black" style="text-align:center">
+        <tr>
+        <td style="text-align:center">9am - 9:10am CST</td>
+        <td>Opening Remarks </td>
+        </tr>
+
+        <tr>
+        <td style="text-align:center">9:10am - 10am CST</td>
+        <td>Invited Talk 1: <i><strong>Memorization vs Reasoning in MoEs and Estimating Memory Consumption in Distributed Training</strong><i> 
+          <br><i>Rio Yokota<i>
+          <br><i>Institute of Science Tokyo<i></td>
+        </tr>
+        
+        <tr>
+          <td style="text-align:center">10am - 10:30am CST</td>
+          <td>Morning Break</td>
+        </tr>
+
+        <tr>
+          <td style="text-align:center">10:30am - 11:10am CST</td>
+          <td>Invited Talk 2: <i><strong>Automating Energy-Aware HPC Code Development for Performance and Portability in Heterogeneous Computing</strong><i> 
+            <br><i>Matthew Dearing<i>
+            <br><i>Argonne National Laboratory<i></td>
+          </tr>
+
+        <tr>
+        <td style="text-align:center">11:10am - 11:30am CST</td>
+        <td><strong>Enabling Unstructured Sparse Fine-Tuning and Inference for Foundation Models on Wafer-Scale Engine</strong>
+          <br><i>Haoyu Zheng, Yifan Zeng, Linghao Song, Murali Emani, and Wenqian Dong<i> 
+        <br>Session chair: Seyong Lee</td>
+        </tr>
+        
+        <tr>
+        <td style="text-align:center">11:30am - 11:50am CST</td>
+        <td><strong>WAGES: Workload-Aware GPU Sharing System for Energy-Efficient Serverless LLM Serving</strong>
+          <br><i>Tianyu Wang, Gourav Rattihalli, Aditya Dhakal, Xulong Tang, and Dejan Milojicic<i> 
+        <br>Session chair: Seyong Lee</td>
+        </tr>
+        
+        <tr>
+        <td style="text-align:center">11:50am - 12:10pm CST</td>
+        <td><strong>OmniFed: A Modular Framework for Configurable Federated Learning from Edge to HPC</strong>
+          <br><i>Sahil Tyagi, Andrei Cozma, Olivera Kotevska, and Feiyi Wang<i>
+        <br>Session chair: Pedro Valero-Lara</td>
+        </tr>
+
+        <tr>
+        <td style="text-align:center">12:10pm - 12:30pm CST</td>
+        <td><strong>Enhancing ChatPORT with CUDA-to-SYCL Kernel Translation Capability</strong>
+          <br><i>Zheming Jin, Swaroop Pophale, and Keita Teranishi<i>
+        <br>Session chair: Pedro Valero-Lara</td>
+        </tr>
+        
+        <tr>
+        <td style="text-align:center">12:30pm CST</td>
+        <td>Closing Remarks</td>
+        </tr> 
+
+        </table>  
+        <br>
+  </div>
+</div>
+  
+<!-- Third Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container" id="cfp">
+  <div class="w3-content">           
+      <h1>Call for Papers</h1>
+      
+  
+      <h3 class="w3-padding-32">Topics will include but will not be limited to:</h3>
+      <h5 class="w3-text-grey">
+        <li>AI and HPC Convergence: Application of AI techniques to accelerate scientific computing and enhance HPC workflows; 
+          integration of machine learning and data-driven methods into traditional simulation pipelines.;</li>
+        <li>Heterogeneous Architectures for HPC and AI: Design, deployment, and utilization of diverse compute platforms including 
+          GPUs, TPUs, FPGAs, neuromorphic processors, quantum devices, and domain-specific accelerators in high-performance environments.;</li>
+        <li>Programming Models and Portability: Frameworks, languages, and tools that enable performance portability and efficient code execution 
+          across heterogeneous and evolving architectures.;</li>
+        <li>AI-Assisted System Optimization: Use of AI and machine learning for compiler optimizations, workload scheduling, 
+          autotuning, performance modeling, and intelligent resource management in complex systems;</li>
+        <li>Memory and Data Management: Innovations in hierarchical memory systems, data movement optimization, locality-aware computing, and high-performance I/O 
+          strategies tailored for heterogeneous platforms;</li>
+        <li>Energy Efficiency and Sustainable HPC: AI-enhanced techniques for reducing energy consumption, managing power-performance trade-offs, 
+          and enabling environmentally sustainable supercomputing;</li>
+      </h5>
+
+     <h3 class="w3-padding-32">Submission</h3>  
+     <h5 class="w3-text-grey">Authors are invited to submit manuscripts in English structured as technical papers 
+       up to 6 pages 2-column pages, min 5 pages (U.S. letter – 8.5″x11″), excluding the bibliography, using the 
+       ACM proceedings template that is available at <a href="https://www.acm.org/publications/proceedings-template">here</a>. 
+       The manuscripts are single-blind. Word authors can use the “Interim Layout”.
+       Submissions not conforming to these guidelines may be returned without review. </h5>
+
+    <h5 class="w3-text-grey">All manuscripts will be peer-reviewed and judged on correctness, originality, technical 
+      strength, and significance, quality of presentation, and interest and relevance to the workshop attendees. 
+      Submitted papers must represent original unpublished research that is not currently under review for any 
+      other conference or journal. Papers not following these guidelines will be rejected without review and 
+      further action may be taken, including (but not limited to) notifications sent to the heads of the 
+      institutions of the authors and sponsors of the conference. Submissions received after the due date, 
+      exceeding length limit, or not appropriately structured may also not be considered. At least one author of 
+      an accepted paper must register for and attend the workshop. Authors may contact the workshop organizers 
+      for more information.</h5>
+
+    <h5 class="w3-text-grey">Papers should be submitted electronically at: 
+      <a href="https://submissions.supercomputing.org">https://submissions.supercomputing.org</a>, 
+      SC26 Workshop: ExHetAI'26: Workshop on Extreme Heterogeneity and AI Convergence in HPC".</h5>
+      
+      <h5 class="w3-text-grey">The final papers will be published in the SC Workshops Proceedings.</h5>
+      
+  </div>
+</div>
+
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container" id="dates">
+  <div class="w3-content">
+     <h1>Important Dates</h1>
+     
+     <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <div class="w3-container">
+          <h3>Submission Deadline</h3>
+           <p> <del>August 8 (11:59pm, AOE), 2025</del></p>
+           <p> August 15 (11:59pm, AOE), 2025 </p>
+         </div>
+         </div>
+      </div>
+    </div>
+    
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <div class="w3-container">
+          <h3>Notification of acceptance</h3>
+          <p> September 5, 2025 </p>
+        </div>
+      </div>
+    </div>
+    
+   <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <div class="w3-container">
+          <h3>Camera Ready</h3>
+          <p> September 26, 2025</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+  
+<!-- Fourth Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container" id="committees">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Organizers</h1>
+      <h5 class="w3-text-grey">
+        <li>Gokcen Kestor, Barcelona Supercomputing Center</li>
+        <li>Seyong Lee, Oak Ridge National Laboratory, USA</li>
+        <li>Pedro Valero-Lara, Oak Ridge National Laboratory, USA</li>
+      </h5>
+
+      
+      <h1>Technical Program Committee</h1>
+
+      <h5 class="w3-text-grey">
+        <li>Wenqian Dong, Oregon State University</li>
+        <li>Murali Krishna Emani, Argonne National Laboratory</li>
+        <li>Mohamed Ibrahim Ghenai, CERFACS</li>
+        <li>Eduardo Iraola De Acevedo, Barcelona Supercomputing Center</li>
+        <li>Ali Jannesari,  Iowa State University</li>
+        <li>Geonhwa Jeong, META</li>
+        <li>Dong Li, UC Merced</li>
+        <li>Guray Ozen, NVIDIA, USA </li>
+        <li>Ivy Peng, KTH Royal Institute of Technology</li>
+        <li>Zhen Peng, Pacific Northwest National Laboratory</li>
+        <li>Jie Ren, William and Marry</li>
+        <li>Catherine Schuman, The University of Tennessee Knoxville</li>
+       
+      </h5>
+      
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge"></h1>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+ 
+</body>
+</html>
