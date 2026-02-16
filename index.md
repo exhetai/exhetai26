@@ -19,13 +19,13 @@ strategies, and high-performance I/O.
 strategies, and efficient workload scheduling.
 
 # Important Deadlines
-Paper submission due date: August 8, 2025 Anywhere on Earch (AoE)
+Paper submission due date: August 8, 2026 Anywhere on Earch (AoE)
 
-Author notification: September 5, 2025
+Author notification: September 5, 2026
 
-Camera-ready paper due date: September 26, 2025
+Camera-ready paper due date: September 26, 2026
 
-Post workshop slides and outcomes online: November 24, 2025
+Post workshop slides and outcomes online: November 24, 2026
 
 # Organizers (Contact us)
 Gokcen Kestor (co-chair)
